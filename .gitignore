@@ -1,0 +1,14 @@
+# 密钥与环境文件绝不入库
+*.env
+.env*
+**/node_modules/
+__pycache__/
+*.pyc
+# 照片与种子二进制（部署时另行传输）
+06-演示数据/staging/
+06-演示数据/out/
+*.tar.gz
+*.jpeg
+*.jpg
+*.png
+!04-操作与演示/screenshots/*.png
